@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sample Viewer
+Comment=AVT GigE Camera Sample Viewer
+Exec=SampleViewer
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Settings

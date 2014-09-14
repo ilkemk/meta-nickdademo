@@ -1,0 +1,10 @@
+--- old/opt/teamviewer9/tv_bin/script/tvw_profile	2013-11-12 03:28:56.000000000 +1100
++++ new/opt/teamviewer9/tv_bin/script/tvw_profile	2013-12-01 23:38:50.000000000 +1100
+@@ -89,6 +89,7 @@
+   winetweak no_xrandr		# Disable XRandR (causes problems with some drivers)
+   winetweak no_fileassocs	# Disable synchronizing of file associations and menu entries
+ #  winetweak setwinver		# Set Win2k mode for TeamViewer
++  winetweak no_windowmanagercontrol # Disable window manager control
+ }
+ 
+ function winetweak()
